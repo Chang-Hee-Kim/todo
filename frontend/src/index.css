@@ -1,0 +1,62 @@
+:root {
+  /* Apple Glassmorphism Theme Colors */
+  --glass-bg: rgba(255, 255, 255, 0.15);
+  /* Frosted panel background */
+  --glass-bg-hover: rgba(255, 255, 255, 0.25);
+  --glass-bg-active: rgba(255, 255, 255, 0.3);
+
+  --rabbit-bg: #5D5A58;
+  /* Warm dark gray background */
+  --rabbit-text: #FFFFFF;
+  --rabbit-text-muted: rgba(255, 255, 255, 0.6);
+
+  --rabbit-accent: #0A84FF;
+  /* Apple Blue */
+  --rabbit-pink: #FF9F0A;
+  /* Apple Orange */
+  --rabbit-mint: #30D158;
+  /* Apple Green */
+  --rabbit-red: #FF453A;
+  /* Apple Red */
+
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.2);
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 32px;
+  --radius-full: 9999px;
+
+  --border-glass: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', 'Poor Story', 'Comic Sans MS', sans-serif;
+  background-color: var(--rabbit-bg);
+  color: var(--rabbit-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom Scrollbar for cute vibe */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--rabbit-pink);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--rabbit-pink-dark);
+}
